@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -45,6 +45,11 @@
 		2C8955732C886411005763EF /* HoopMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopMasterUITests.swift; sourceTree = "<group>"; };
 		2C8955752C886411005763EF /* HoopMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2C9581E42CA827E700C1AA12 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
+		2C9581E62CA827F700C1AA12 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2C8955522C886410005763EF /* Frameworks */ = {
@@ -96,6 +101,8 @@
 			children = (
 				2C8955582C886410005763EF /* HoopMasterApp.swift */,
 				2C89555A2C886410005763EF /* ContentView.swift */,
+				2C9581E62CA827F700C1AA12 /* Views */,
+				2C9581E42CA827E700C1AA12 /* Components */,
 				2C89555C2C886411005763EF /* Assets.xcassets */,
 				2C89555E2C886411005763EF /* Preview Content */,
 			);
@@ -141,6 +148,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2C9581E42CA827E700C1AA12 /* Components */,
+				2C9581E62CA827F700C1AA12 /* Views */,
 			);
 			name = HoopMaster;
 			productName = HoopMaster;
