@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256FD8B52CA984E100F9F116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FD8B42CA984DB00F9F116 /* AppDelegate.swift */; };
 		2C8955592C886410005763EF /* HoopMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8955582C886410005763EF /* HoopMasterApp.swift */; };
 		2C89555B2C886410005763EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89555A2C886410005763EF /* ContentView.swift */; };
 		2C89555D2C886411005763EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C89555C2C886411005763EF /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		256FD8B42CA984DB00F9F116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C8955552C886410005763EF /* HoopMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoopMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8955582C886410005763EF /* HoopMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopMasterApp.swift; sourceTree = "<group>"; };
 		2C89555A2C886410005763EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		256FD8AA2CA977BB00F9F116 /* Controllers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Controllers; sourceTree = "<group>"; };
 		2C9581E42CA827E700C1AA12 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
 		2C9581E62CA827F700C1AA12 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -99,6 +102,8 @@
 		2C8955572C886410005763EF /* HoopMaster */ = {
 			isa = PBXGroup;
 			children = (
+				256FD8B42CA984DB00F9F116 /* AppDelegate.swift */,
+				256FD8AA2CA977BB00F9F116 /* Controllers */,
 				2C8955582C886410005763EF /* HoopMasterApp.swift */,
 				2C89555A2C886410005763EF /* ContentView.swift */,
 				2C9581E62CA827F700C1AA12 /* Views */,
@@ -150,6 +155,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				256FD8AA2CA977BB00F9F116 /* Controllers */,
 				2C9581E42CA827E700C1AA12 /* Components */,
 				2C9581E62CA827F700C1AA12 /* Views */,
 			);
@@ -270,6 +276,7 @@
 			files = (
 				2C89555B2C886410005763EF /* ContentView.swift in Sources */,
 				2C8955592C886410005763EF /* HoopMasterApp.swift in Sources */,
+				256FD8B52CA984E100F9F116 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +440,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HoopMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = V57A38376A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application needs to use your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,8 +470,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HoopMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = V57A38376A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application needs to use your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
